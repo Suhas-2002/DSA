@@ -72,7 +72,7 @@ public class Graph {
 		g.addEdge(6, 3);
 		g.addEdge(4, 3);
 
-		System.out.print("Depth First Traversal (starting from vertex 0) : ");
+		System.out.print("Breadth First Traversal (starting from vertex 0) : ");
 		g.BFS(0);
 		System.out.println();
 		System.out.print("Depth First Traversal (starting from vertex 0) : ");
